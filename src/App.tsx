@@ -92,12 +92,13 @@ function App() {
 
             return (
               <DetailForm
+                key={index}
                 detail={detail}
                 index={index}
+                onToggle={() => toggleDetailVisibility(index + 1)}
                 onChange={updateDetail}
                 showToggle={!isLast}
                 toggleButtonText={canShowNext ? "＋" : "－"}
-                onToggle={() => toggleDetailVisibility(index + 1)}
               />
             )
           })}

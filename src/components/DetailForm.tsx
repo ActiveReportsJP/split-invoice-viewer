@@ -3,7 +3,7 @@ import { DetailItem } from '../types/invoice'
 interface DetailFormProps {
   detail: DetailItem
   index: number
-  onToggle?: () => void
+  onToggle: () => void
   onChange: (index: number, field: keyof DetailItem, value: string) => void
   showToggle: boolean
   toggleButtonText: string
@@ -14,8 +14,8 @@ export const DetailForm = ({
   index,
   onToggle,
   onChange,
-  showToggle = false,
-  toggleButtonText = "＋",
+  showToggle,
+  toggleButtonText,
 }: DetailFormProps) => {
   const detailNumbers = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨"]
 
