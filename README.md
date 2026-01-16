@@ -23,7 +23,7 @@ React + TypeScript + Vite
 cp -p .env.local.example .env.local
 ```
 
-`.env.local`に、ライセンスキーを入力する。
+`.env.local`に、ライセンスキーを入力する
 
 > [!NOTE]
 > ライセンスキーを入力しない場合は、トライアル版として実行します。
