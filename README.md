@@ -40,7 +40,7 @@ npm install
 npm run dev
 ```
 
-- http://localhost:5173/split-invoice-viewer/
+http://localhost:5173/split-invoice-viewer/
 
 > [!NOTE]
 >> Document load is already in progress, cancelling<br>
@@ -67,4 +67,4 @@ npm run build
 npm run preview
 ```
 
-- http://localhost:4173/split-invoice-viewer/
+http://localhost:4173/split-invoice-viewer/
